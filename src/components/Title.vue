@@ -1,14 +1,15 @@
 <template>
-  <p>La mia prima app con Vue CLI!</p>
+  <h1>La mia prima app con Vue CLI!</h1>
 </template>
 
 <script>
 export default {};
 </script>
 
-<style>
-p {
-  border: 1px solid black;
-  background-color: blue;
+<style scoped>
+h1 {
+  color: blue;
+  text-align: center;
+  line-height: 100px;
 }
 </style>

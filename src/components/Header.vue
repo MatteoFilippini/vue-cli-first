@@ -8,13 +8,15 @@
 import Title from "@/components/Title.vue";
 export default {
   name: "Header",
-  Title,
+  components: {
+    Title,
+  },
 };
 </script>
 
-<style>
+<style scoped>
 header {
   background-color: red;
-  height: 50px;
+  height: 100px;
 }
 </style>
